@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    font-family: メイリオ, Meiryo, "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3",
+    "Hiragino Kaku Gothic ProN", sans-serif;
+    letter-spacing: 0.2em;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.popup {
+    position: absolute;
+    background-color: darkgray;
+    top: -200px;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    width: 300px;
+}
+
+.show {
+    top: 200px;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+} 
+
+header {
+    margin: 10px;
+}
+
+.tomato {
+    width: 50px;
+}
+
+.pomodoro {
+    background-color: rgb(228, 228, 228);
+}
+
+.table {
+    background-color: rgb(228, 228, 228);
+}
